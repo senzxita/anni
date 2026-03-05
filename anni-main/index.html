@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary Schatz 💕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hearts-bg"></div>
+
+    <div class="container">
+        <h1>Happy Anniversary Schatz 💕</h1>
+        <h2>2 down, Are you willing to go 998 more years with me? </h2>
+
+        <div class="rib-pic">
+            <img id="rib" src="media/rib.jpeg" alt="couple picture">
+        </div>
+
+        <div class="buttons">
+            <button id="yes-btn" onclick="handleYesClick()">Yes</button>
+            <button id="no-btn" onclick="handleNoClick()">No</button>
+        </div>
+        <div id="tease-toast"></div>
+    </div>
+
+    <audio id="bg-media" loop autoplay muted>
+        <source src="media/Elvis_Presley_Can_t_Help_Falling_In_Love_-_-_(mp3.pm).mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
